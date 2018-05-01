@@ -12,7 +12,9 @@ namespace ConsoleApp1
          {
             int valueInt = 4;
             Console.WriteLine(valueInt);
+            Console.WriteLine("Hello Word czyli Witaj Świecie");
             Console.ReadKey(true);
+
         }
     }
 }
