@@ -22,8 +22,16 @@ namespace ConsoleApp1
 
             Console.Write("Pole prostokąta o boku a={0} i boku b={1} ",a,b);
             Console.Write("Wynosi {0}", pole);
+            Console.WriteLine(" ");
 
-            Console.Read(); //Zamyka Cmd po naciśnieciu Entera
+            //Program który ma wyświetlać liczbę pi w CMD 
+
+                Console.WriteLine("Wyświetlamy liczbę pi");
+
+                    double pi = 3.1416;
+                    Console.WriteLine(pi);
+
+         Console.Read(); //Zamyka Cmd po naciśnieciu Entera
 
 
 
