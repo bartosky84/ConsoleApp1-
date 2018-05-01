@@ -30,6 +30,18 @@ namespace ConsoleApp1
 
                     double pi = 3.1416;
                     Console.WriteLine(pi);
+                    Console.WriteLine("");
+
+            //Program obliczajacy objętość kuli
+
+            double r, objetosc;
+            Console.WriteLine("Oblicz objetość kuli o promieniu r ");
+            Console.WriteLine("Podaj długość promienia r. ");
+            r = double.Parse(Console.ReadLine());
+            objetosc = 4.0 * 3.14 * r * r * r / 4;
+            Console.WriteLine("Objetość kuli o promieniu r= {0:#.##} wynosi {1:#.##} ", r, objetosc);
+            Console.WriteLine(" ");
+
 
          Console.Read(); //Zamyka Cmd po naciśnieciu Entera
 
