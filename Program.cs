@@ -42,6 +42,14 @@ namespace ConsoleApp1
             Console.WriteLine("Objetość kuli o promieniu r= {0:#.##} wynosi {1:#.##} ", r, objetosc);
             Console.WriteLine(" ");
 
+            //Dzielenie dwóch liczb całkowitych bez reszy
+
+            int i = 37; int j = 11;
+            Console.WriteLine("Dzielenie dwoch liczb calkowitych bez reszty");
+            Console.WriteLine("Dla liczby a= " + i + " liczby b = " + j);
+            Console.WriteLine("Iloraz z " + i + "/" + j + "Wynosi: " + i / j);
+
+
 
          Console.Read(); //Zamyka Cmd po naciśnieciu Entera
 
